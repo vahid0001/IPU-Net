@@ -1,5 +1,5 @@
 # IPU-Net
-We propose an Identity-Preserved U-Net which is capable of super-resolving very low resolution faces to their high resolution counterparts while preserving identity-related information. We achieve this by training a U-Net with a combination of a reconstruction and an identity-preserving loss, on multi-scale low resolution conditions.
+We propose an identity-preserving end-to-end image-to-image translation deep neural network which is capable of super-resolving very low-resolution faces to their high-resolution counterparts while preserving identity-related information. We achieved this by training a very deep convolutional encoder-decoder network with a symmetric contracting path between corresponding layers. This network was trained with a combination of a reconstruction and an identity-preserving loss, on multi-scale low-resolution conditions.
 
 
 
