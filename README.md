@@ -5,8 +5,6 @@ We propose an Identity-Preserved U-Net which is capable of super-resolving very 
 
 ## Important Links
 [Paper](https://arxiv.org/abs/2010.12249) </br>
-Project page </br>
-Blog post </br>
 
 ## Model Architecture
 Our proposed method includes two deep neural networks which are designed to produce super-resolution faces from the lowresolution counterparts that are optimized for both visual quality and face recognition. The first network is an autoencoder with skip-connections (U-Net) and the other network is a pre-trained face recognition model with an Inception-ResNet architecture. The IPU-Net generates the super-resolved (SR) faces from the upsampled low-resolution versions by learning the mapping between the pairs. During training, the FRNet produces discriminative, low-dimensional embeddings for both SR and high-resolution (HR) faces in order to compute the identity loss.
