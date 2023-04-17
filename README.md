@@ -6,6 +6,8 @@ We propose an identity-preserving end-to-end image-to-image translation deep neu
 
 ## Important Links
 [Paper](https://arxiv.org/abs/2010.12249) </br>
+[FaceNet model](https://drive.google.com/drive/folders/12aMYASGCKvDdkygSv1yQq8ns03AStDO_) </br>
+[VggFace2 dataset](https://academictorrents.com/details/535113b8395832f09121bc53ac85d7bc8ef6fa5b) </br>
 
 ## Model Architecture
 <p>
